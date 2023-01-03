@@ -2,7 +2,7 @@
 
 Save storage and generate ipfs urls from hashes in solidity smart contracts.
 
-Could not find any solidity base58btc encoder for ipfs urls, so I developed it by my self.
+Could not find any solidity base58btc encoder for ipfs urls, so I developed it by myself.
 Hope you enjoy it.
 
 The repo contains base58btc encoder that transforms ipfs hashes into ipfs urls
