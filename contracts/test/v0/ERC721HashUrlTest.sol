@@ -19,4 +19,8 @@ contract ERC721HashUrlTest is ERC721, ERC721HashUrl {
     function tokenURI(uint256 tokenId) public view override(ERC721, ERC721HashUrl) returns (string memory) {
         return ERC721HashUrl.tokenURI(tokenId);
     }
+
+    function setTokenMetadataHash(uint256 tokenId, bytes32 metadataHash) external {
+        _setTokenMetadataHash(tokenId, metadataHash);
+    }
 }
