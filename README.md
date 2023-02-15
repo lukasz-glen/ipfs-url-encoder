@@ -8,7 +8,13 @@ Hope you enjoy it.
 The repo contains base58btc encoder that transforms ipfs hashes into ipfs urls
 and two ERC721 metadata implementations.
 
-Currently, this lib supports CID v0 only. 
+Currently, this lib supports CID v0 only.
+
+## Add to your dependencies
+
+```{shell}
+npm install @lukasz.glen/ipfs-url-encoder
+```
 
 ## Running
 
