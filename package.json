@@ -1,7 +1,7 @@
 {
   "name": "@lukasz.glen/ipfs-url-encoder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Save storage and generate ipfs urls from hashes in solidity smart contracts",
   "main": "index.js",
   "keywords": [
     "solidity",
